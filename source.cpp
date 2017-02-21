@@ -5,7 +5,9 @@ branch test ver.1.0
 using namespace std;
 
 int main(void){
-  cout << "Hello World!" << endl;
-
+  int i;
+  for(i=0; i<10; i++){
+    cout << "Hello World!" << endl;
+  }
   return 0;
 }
